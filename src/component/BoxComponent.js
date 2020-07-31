@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+//<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet"> has been added to index.html
 var styleA1 = {
     width: '200px',
     height: '200px',
     background: 'blue',
     color: 'white',
     fontSize: '24pt',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    fontFamily: "'Recursive', sans-serif"
 };
 var styleA2 = {
     color: 'orange',
@@ -18,7 +20,8 @@ var styleB1 = {
     background: 'orange',
     color: 'white',
     fontSize: '24pt',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    fontFamily: "'Recursive', sans-serif"
 };
 var styleB2 = {
     color: 'blue',
